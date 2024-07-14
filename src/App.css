@@ -4,13 +4,9 @@
   grid-template-rows: repeat(15, 1fr);
   width: 100vw;
   height: 100vh;
-  gap: 2px; /* Adjust the gap between squares if needed */
+  gap: 2px;
 }
 
 .grid-item {
-  border: 1px solid #272726; /* Adjust the border color if needed */
-}
-
-.grid-item.active {
-  /* No need to define background-color here, as it's dynamically set in JavaScript */
+  border: 1px solid #272726;
 }
